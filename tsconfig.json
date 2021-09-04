@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "h"
+  },
+  "compileOnSave": true,
+  "include" : [
+    "ts/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
