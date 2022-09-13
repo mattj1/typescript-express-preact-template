@@ -1,6 +1,14 @@
 import {Component, createContext, h, render} from 'preact';
 
-class IndexPage extends Component {
+interface Props {
+
+}
+
+interface State {
+
+}
+
+class IndexPage extends Component<Props, State> {
     render() {
         return <div>IndexPage</div>
     }

@@ -6,10 +6,12 @@ Preact included for lightweight virtual DOM.
 
 ## Webstorm Run Configuration
 
-Node parameters: `./node_modules/.bin/nodemon`
+Node parameters: `./node_modules/.bin/ts-node-dev`
 
 Working directory: `<project directory>`
 
-Javascript File: `bin/www`
+Javascript File: `<empty>`
+
+Application Parameters: `--transpile-only --watch ts bin/www.ts`
 
 Environment Variables: `DEBUG=express-preact-webpack-template:*`

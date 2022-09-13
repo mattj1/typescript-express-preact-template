@@ -4,7 +4,11 @@
  * Module dependencies.
  */
 
-var app = require('../dist/server/app');
+import {
+  app
+} from '../ts/server/app';
+
+
 var debug = require('debug')('express-preact-webpack-template:server');
 var http = require('http');
 

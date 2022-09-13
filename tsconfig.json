@@ -8,11 +8,19 @@
     "jsx": "react",
     "jsxFactory": "h"
   },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "inlineSourceMap": true,
+      "inlineSources": true
+    }
+  },
   "compileOnSave": true,
   "include" : [
     "ts/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }
